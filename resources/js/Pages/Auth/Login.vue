@@ -40,6 +40,10 @@ const submit = () => {
       {{ status }}
     </div>
 
+    <div class="mb-4 text-sm font-medium text-gray-600 dark:text-gray-400">
+      <h1 class="text-center text-xl font-bold text-gray-800 dark:text-gray-200">Login</h1>
+    </div>
+
     <form @submit.prevent="submit">
       <div>
         <InputLabel

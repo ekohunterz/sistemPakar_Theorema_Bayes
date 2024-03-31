@@ -15,29 +15,25 @@ class DiseaseSeeder extends Seeder
     {
         $diseases = [
             [
-                'name' => 'Malaria',
-                'description' => 'Malaria is a disease that affects the nervous system. It is caused by the bite of an infected female goat.',
-                'image' => null,
-                'solution' => 'Get vaccinated.',
+                'name' => 'Influenza Like Common (ILI)',
+                'description' => 'Influenza Like Common (ILI) adalah penyakit pernapasan yang umum disebabkan oleh virus. Gejalanya termasuk demam, pilek, batuk, sakit tenggorokan, dan nyeri otot.',
+                'solution' => 'Istirahat yang cukup, minum air putih, konsumsi obat flu sesuai anjuran dokter.',
             ],
             [
-                'name' => 'Diabetes',
-                'description' => 'Diabetes is a disease that affects the body\'s ability to make insulin.',
-                'image' => null,
-                'solution' => 'Get vaccinated.',
+                'name' => 'Bronkhitis',
+                'description' => 'Bronkhitis adalah peradangan saluran bronkial yang menyebabkan batuk persisten dengan lendir. Gejala lainnya termasuk sesak napas dan nyeri dada.',
+                'solution' => 'Istirahat, minum banyak air, obat batuk dan pereda nyeri jika diperlukan.',
             ],
             [
-                'name' => 'Hypertension',
-                'description' => 'Hypertension is a disease that affects the blood pressure in the body.',
-                'image' => null,
-                'solution' => 'Get vaccinated.',
+                'name' => 'Faringitis',
+                'description' => 'Faringitis adalah peradangan pada tenggorokan yang dapat menyebabkan sakit tenggorokan, kemerahan, dan sulit menelan. Biasanya disebabkan oleh infeksi virus atau bakteri.',
+                'solution' => 'Minum air hangat, garam air garam, istirahat yang cukup, konsumsi obat pereda nyeri tenggorokan.',
             ],
             [
-                'name' => 'Covid-19',
-                'description' => 'Covid-19 is a disease that affects the respiratory system.',
-                'image' => null,
-                'solution' => 'Get vaccinated.',
-            ]
+                'name' => 'Tonsilitis',
+                'description' => 'Tonsilitis adalah peradangan amandel, organ kecil di belakang tenggorokan. Gejala umum termasuk sakit tenggorokan, kesulitan menelan, dan mungkin demam.',
+                'solution' => 'Minum air hangat, garam air garam, istirahat yang cukup, konsumsi obat pereda nyeri tenggorokan.',
+            ],
         ];
 
         Disease::insert($diseases);

@@ -16,12 +16,14 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
 
-        Symptom::factory(10)->create();
+
         \App\Models\User::factory()->create([
             'name' => 'Test User',
             'email' => 'admin@gmail.com',
         ]);
 
         $this->call(DiseaseSeeder::class);
+        $this->call(SymptomSeeder::class);
+        $this->call(RuleSeeder::class);
     }
 }
